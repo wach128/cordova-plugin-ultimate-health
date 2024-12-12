@@ -18,7 +18,7 @@ public class AppUpdatedReceiver extends BroadcastReceiver {
         if (!prefs.getBoolean("enabled", false)) {
           return;
         }
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
           API26Wrapper.startForegroundService(context, new Intent(context, SensorListener.class));
         } else {
           context.startService(new Intent(context, SensorListener.class));
