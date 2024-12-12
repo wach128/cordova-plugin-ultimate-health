@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ac6bc5e-f639-432f-a364-6bc888006ae8" name="Changes" comment="- try to fix ForegroundService error">
-      <change afterPath="$PROJECT_DIR$/apk/mobile-app-v19.apk" afterDir="false" />
+    <list default="true" id="4ac6bc5e-f639-432f-a364-6bc888006ae8" name="Changes" comment="- output">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +63,7 @@
       <updated>1734016767425</updated>
       <workItem from="1734016768725" duration="652000" />
       <workItem from="1734017447433" duration="601000" />
-      <workItem from="1734022970879" duration="11718000" />
+      <workItem from="1734022970879" duration="12890000" />
     </task>
     <task id="LOCAL-00001" summary="- init project">
       <created>1734017190213</created>
@@ -149,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1734040515540</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="- output">
+      <created>1734044170309</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1734044170309</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +197,7 @@
     <MESSAGE value="- fix ForegroundService error" />
     <MESSAGE value="- generate output" />
     <MESSAGE value="- try to fix ForegroundService error" />
-    <option name="LAST_COMMIT_MESSAGE" value="- try to fix ForegroundService error" />
+    <MESSAGE value="- output" />
+    <option name="LAST_COMMIT_MESSAGE" value="- output" />
   </component>
 </project>
