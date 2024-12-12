@@ -135,7 +135,7 @@ public class SensorListener extends Service implements SensorEventListener {
 
 	private void showNotification() {
 		if (getSharedPreferences("pedometer", Context.MODE_PRIVATE).getBoolean("notification", true)) {
-			if (Build.VERSION.SDK_INT >= 26) {
+			if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
 				startForeground(NOTIFICATION_ID, getNotification());
 			} else {
 				((NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE)).notify(NOTIFICATION_ID,
@@ -237,7 +237,7 @@ public class SensorListener extends Service implements SensorEventListener {
 	public Notification getNotification() {
 		SharedPreferences prefs = getSharedPreferences("pedometer", Context.MODE_PRIVATE);
 		int goal = prefs.getInt(Config.GOAL_PREF_INT, Config.DEFAULT_GOAL);
-		Notification.Builder notificationBuilder = Build.VERSION.SDK_INT >= 26
+		Notification.Builder notificationBuilder = Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q
 				? API26Wrapper.getNotificationBuilder(getApplicationContext())
 				: new Notification.Builder(getApplicationContext());
 		if (todaySteps() > 0) {

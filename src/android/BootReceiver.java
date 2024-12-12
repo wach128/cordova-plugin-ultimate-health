@@ -20,7 +20,7 @@ public class BootReceiver extends BroadcastReceiver {
 			return;
 		}
 		if (intent.getAction().equalsIgnoreCase(Intent.ACTION_BOOT_COMPLETED)) {
-			if (Build.VERSION.SDK_INT >= 26) {
+			if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
 				API26Wrapper.startForegroundService(context, new Intent(context, SensorListener.class));
 			} else {
 				context.startService(new Intent(context, SensorListener.class));

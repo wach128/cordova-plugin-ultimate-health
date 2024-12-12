@@ -382,7 +382,7 @@ public class StepperPlugin extends CordovaPlugin {
 		Log.i("STEPPER", "StepperPlugin.start");
 		SharedPreferences prefs = getActivity().getSharedPreferences("pedometer", Context.MODE_PRIVATE);
 		prefs.edit().putBoolean("enabled", true).commit();
-		if (Build.VERSION.SDK_INT >= 26) {
+		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
 			API26Wrapper.startForegroundService(getActivity(), new Intent(getActivity(), SensorListener.class));
 		} else {
 			getActivity().startService(new Intent(getActivity(), SensorListener.class));
