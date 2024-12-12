@@ -60,11 +60,6 @@
 
             <uses-permission android:name="android.permission.FOREGROUND_SERVICE" android:exported="false" />
             <uses-permission android:name="android.permission.FOREGROUND_SERVICE_LOCATION" />
-            <service
-                    android:name="org.apache.cordova.background.ForegroundService"
-                    android:stopWithTask="true"
-                    android:foregroundServiceType="health"
-                    android:exported="false" />
         </config-file>
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="Stepper">
