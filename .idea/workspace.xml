@@ -4,26 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ac6bc5e-f639-432f-a364-6bc888006ae8" name="Changes" comment="-">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plugin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/android/AppUpdatedReceiver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/android/BootReceiver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/android/Database.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/android/SensorListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/android/ShutdownReceiver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/android/StepperPlugin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/android/res/drawable/ic_footsteps_silhouette_variant.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/android/util/API23Wrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/android/util/API26Wrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/android/util/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/android/util/Entry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/android/util/Status.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/android/util/Util.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ios/Stepper.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ios/Stepper.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/stepper.js" afterDir="false" />
+    <list default="true" id="4ac6bc5e-f639-432f-a364-6bc888006ae8" name="Changes" comment="- clean files">
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/plugin.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +37,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "L:/projects/TFS/healthing-app/mini-projects/cordova-plugin-ultimate-health/src",
+    "last_opened_file_path": "L:/projects/TFS/healthing-app/mini-projects/cordova-plugin-ultimate-health",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -65,8 +49,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="L:\projects\TFS\healthing-app\mini-projects\cordova-plugin-ultimate-health\src" />
       <recent name="L:\projects\TFS\healthing-app\mini-projects\cordova-plugin-ultimate-health" />
+      <recent name="L:\projects\TFS\healthing-app\mini-projects\cordova-plugin-ultimate-health\src" />
       <recent name="L:\projects\TFS\healthing-app\mini-projects\cordova-plugin-ultimate-health\www" />
       <recent name="L:\projects\TFS\healthing-app\mini-projects\cordova-plugin-ultimate-health\src\android" />
     </key>
@@ -81,7 +65,7 @@
       <updated>1734016767425</updated>
       <workItem from="1734016768725" duration="652000" />
       <workItem from="1734017447433" duration="601000" />
-      <workItem from="1734022970879" duration="921000" />
+      <workItem from="1734022970879" duration="2180000" />
     </task>
     <task id="LOCAL-00001" summary="- init project">
       <created>1734017190213</created>
@@ -97,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1734017369970</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="- clean files">
+      <created>1734023935841</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1734023935841</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,8 +118,11 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="- init project" />
-    <option name="LAST_COMMIT_MESSAGE" value="- init project" />
+    <MESSAGE value="- clean files" />
+    <option name="LAST_COMMIT_MESSAGE" value="- clean files" />
   </component>
 </project>

@@ -1,0 +1,32 @@
+{
+  "name": "cordova-plugin-ultimate-health",
+  "version": "0.0.1",
+  "description": "Lightweight pedometer Cordova/Phonegap plugin for Android using the hardware step sensor, with notifications. (this plugin inspired from Felicien Francois stepper plugin: https://github.com/felicienfrancois/cordova-plugin-stepper)",
+  "cordova": {
+    "id": "cordova-plugin-ultimate-health",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wach128/cordova-plugin-ultimate-health.git"
+  },
+  "keywords": [
+    "cordova",
+    "phonegap",
+    "pedometer",
+    "steps",
+    "distance",
+    "fitness",
+    "cordova-android",
+    "distance"
+  ],
+  "author": "wach128",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wach128/cordova-plugin-ultimate-health/issues"
+  },
+  "homepage": "https://github.com/wach128/cordova-plugin-ultimate-health#readme"
+}
