@@ -59,7 +59,7 @@
             <uses-feature android:name="android.hardware.sensor.stepcounter" android:required="false" />
 
             <uses-permission android:name="android.permission.FOREGROUND_SERVICE" android:exported="false" />
-            <uses-permission android:name="android.permission.FOREGROUND_SERVICE_LOCATION" />
+            <uses-permission android:name="android.permission.FOREGROUND_SERVICE_HEALTH" />
         </config-file>
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="Stepper">
@@ -79,5 +79,12 @@
         <source-file src="src/android/util/Config.java" target-dir="src/org/apache/cordova/stepper/util" />
         <source-file src="src/android/util/Status.java" target-dir="src/org/apache/cordova/stepper/util" />
         <source-file src="src/android/res/drawable/ic_footsteps_silhouette_variant.xml" target-dir="res/drawable" />
+        <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+        <service
+                android:name="org.apache.cordova.ultimate.health.SensorListener"
+                android:foregroundServiceType="health"
+                android:exported="false">
+        </service>
+    </manifest>
     </platform>
 </plugin>
