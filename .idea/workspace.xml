@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ac6bc5e-f639-432f-a364-6bc888006ae8" name="Changes" comment="- generate output">
+    <list default="true" id="4ac6bc5e-f639-432f-a364-6bc888006ae8" name="Changes" comment="- try to fix ForegroundService error">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/android/AppUpdatedReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/android/AppUpdatedReceiver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +64,7 @@
       <updated>1734016767425</updated>
       <workItem from="1734016768725" duration="652000" />
       <workItem from="1734017447433" duration="601000" />
-      <workItem from="1734022970879" duration="10691000" />
+      <workItem from="1734022970879" duration="11126000" />
     </task>
     <task id="LOCAL-00001" summary="- init project">
       <created>1734017190213</created>
@@ -137,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1734039269016</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="- try to fix ForegroundService error">
+      <created>1734040179520</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1734040179520</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,8 +182,8 @@
     <MESSAGE value="- add readme" />
     <MESSAGE value="- remove BuildConfig" />
     <MESSAGE value="- fix ForegroundService error" />
-    <MESSAGE value="- try to fix ForegroundService error" />
     <MESSAGE value="- generate output" />
-    <option name="LAST_COMMIT_MESSAGE" value="- generate output" />
+    <MESSAGE value="- try to fix ForegroundService error" />
+    <option name="LAST_COMMIT_MESSAGE" value="- try to fix ForegroundService error" />
   </component>
 </project>

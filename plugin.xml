@@ -47,14 +47,9 @@
                     <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
                 </intent-filter>
             </receiver>
-            <service android:name="org.apache.cordova.ultimate.health.SensorListener" android:exported="true" />
-        </config-file>
-        <config-file target="AndroidManifest.xml" parent="application">
-            <service
-                    android:name="org.apache.cordova.ultimate.health.SensorListener"
-                    android:foregroundServiceType="health"
-                    android:exported="false">
-            </service>
+            <service android:name="org.apache.cordova.ultimate.health.SensorListener"
+                     android:foregroundServiceType="health"
+                     android:exported="true" />
         </config-file>
         <config-file target="AndroidManifest.xml" parent="/manifest">
             <uses-permission android:name="android.permission.INTERNET" />
