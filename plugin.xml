@@ -13,7 +13,7 @@
     <license>MIT</license>
     <dependency id="cordova-plugin-device" />
     <engines>
-        <engine name="cordova" version=">=3.0.0" />
+        <engine name="cordova" version=">=10.0.0" />
     </engines>
     <js-module src="www/stepper.js" name="Stepper">
         <clobbers target="stepper" />
@@ -51,7 +51,7 @@
         </config-file>
         <config-file target="AndroidManifest.xml" parent="/manifest">
             <uses-permission android:name="android.permission.INTERNET" />
-            <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" android:maxSdkVersion="32" />
+            <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
             <uses-permission android:name="android.permission.WAKE_LOCK" />
             <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
             <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
@@ -61,7 +61,7 @@
         </config-file>
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="Stepper">
-                <param name="android-package" value="org.apache.cordova.ultimate.health.StepperPlugin" />
+                    <param name="android-package" value="org.apache.cordova.ultimate.health.StepperPlugin" />
             </feature>
         </config-file>
         <source-file src="src/android/StepperPlugin.java" target-dir="src/org/apache/cordova/stepper" />
