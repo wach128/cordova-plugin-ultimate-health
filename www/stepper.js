@@ -47,7 +47,7 @@ Stepper.prototype.startStepperUpdates = function(options, onSuccess, onError, ex
         opts = options;
     }
     const now = new Date();
-    const hms = now.toLocaleString("en-UK", {timeZone: options.timeZone || undefined}).split(", ")[1].split(":");
+    const hms = now.toLocaleString("en-US", {timeZone: options.timeZone || undefined}).split(", ")[1].split(":");
     const endOfDay = new Date(now.getTime() - hms[0]*3600000 - hms[1]*60000 - hms[2]*1000 + 24*3600000);
     exec((result) => {
     	if (result && result.startDate && new Date() >= endOfDay) {
